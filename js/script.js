@@ -9,7 +9,6 @@ function start(city) {
     .fetchTodayForecast()
     .then(function(response) {
       // Récupère la donnée d'une API 
-          //var input = document.getElementById("city-input").value;
       const data = response.data;
 
       // On récupère l'information principal
